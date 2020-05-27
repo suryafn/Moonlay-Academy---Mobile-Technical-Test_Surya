@@ -72,6 +72,21 @@ const App: () => React$Node = () => {
   );
 };
 
+function HelloWorldApp() {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+      <Text>Hello, world!</Text>
+    </View>
+  )
+}
+
+
+
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
@@ -111,4 +126,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default HelloWorldApp;
